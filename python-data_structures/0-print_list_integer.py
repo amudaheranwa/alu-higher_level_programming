@@ -9,4 +9,4 @@ def print_list_integer(my_list=[]):
         my_list (list): A list of integers.
     """
     for number in my_list:
-        print("{}".format(number))
+        print(str.format("{}", number))
